@@ -68,6 +68,8 @@
               {{ product?.price | currency: "VND" }}
             </h3>
             <span class="product-available" *ngIf="product?.quantity >= 1">In Stock</span>
+            <span class="product-available" *ngIf="product?.quantity < 1">Out Stock</span>
+            <span class="product-available">{{ product?.quantity }}</span>
           </div>
           <p>{{ product?.description }}</p>
 
@@ -310,7 +312,7 @@
                   </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-6">
                   <div id="review-form">
                     <form class="review-form">
                       <input

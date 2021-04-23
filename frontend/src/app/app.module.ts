@@ -19,6 +19,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {ToastrModule} from 'ngx-toastr';
 import { ProfileComponent } from './components/profile/profile.component';
 import { GoogleLoginProvider, SocialLoginModule, SocialAuthServiceConfig } from 'angularx-social-login';
+import { AllproductsComponent } from './components/allproducts/allproducts.component';
 
 // const config = new AuthServiceConfig ([
 //   {
@@ -43,7 +44,8 @@ import { GoogleLoginProvider, SocialLoginModule, SocialAuthServiceConfig } from 
     CheckoutComponent,
     ProductComponent,
     ThankyouComponent,
-    ProfileComponent
+    ProfileComponent,
+    AllproductsComponent
   ],
   imports: [
     BrowserModule,
