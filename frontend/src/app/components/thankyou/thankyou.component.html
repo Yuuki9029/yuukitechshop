@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="jumbotron text-center">
-        <h1 class="display-3">Thank You!</h1>
+        <h1 class="display-3">Thanks for shopping</h1>
         <p class="lead">
           <strong>Please check your email</strong> for order confirmation.
         </p>
@@ -34,7 +34,7 @@
               />
             </td>
             <td>{{ p.title }}</td>
-            <td>{{ p.price | currency: "USD" }}</td>
+            <td>{{ p.price | currency: "VND" }}</td>
             <td>{{ p.quantityOrdered }}</td>
           </tr>
 
@@ -42,7 +42,7 @@
             <td style="border: none"></td>
             <td></td>
             <td>TOTAL</td>
-            <td>{{ cartTotal | currency: "USD" }}</td>
+            <td>{{ cartTotal | currency: "VND" }}</td>
           </tr>
         </tbody>
       </table>

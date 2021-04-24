@@ -10,7 +10,7 @@
     <div class="row">
       <div class="col my-4">
         <table class="table">
-          <thead class="table-dark">
+          <thead class="table-dark" style="background: #37276b;">
             <tr class="text-center">
               <th>Image</th>
               <th>Title</th>
@@ -47,6 +47,7 @@
                     class="value-button"
                     id="decrease"
                     (click)="ChangeQuantity(i, false)"
+                    style="background: crimson;"
                   >
                     <i class="fa fa-minus"></i>
                   </div>
@@ -61,6 +62,7 @@
                     class="value-button"
                     id="increase"
                     (click)="ChangeQuantity(i, true)"
+                    style="background: blue;"
                   >
                     <i class="fa fa-plus"></i>
                   </div>
@@ -85,8 +87,8 @@
         <div
           class="d-flex w-100 justify-content-between flex-sm-column flex-md-row"
         >
-          <a routerLink="/checkout" class="btn btn-danger btn-sm order-1"
-            >Checkout</a
+          <a routerLink="/checkout" class="btn btn-danger btn-sm order-1" style="background: blue;"
+            >Payment</a
           >
           <a routerLink="/" class="btn btn-success btn-sm order-0"
             >Continue Shopping</a

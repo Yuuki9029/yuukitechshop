@@ -12,7 +12,7 @@ export class ProductService {
 
   constructor(private http: HttpClient) {}
 
-  getAllProducts(limitOfResults = 9): Observable<serverResponse> {
+  getAllProducts(limitOfResults = 20): Observable<serverResponse> {
     return this.http.get<serverResponse>(this.url + "products", {
       params: {
         limit: limitOfResults.toString(),

@@ -538,9 +538,6 @@ textarea.input {
   padding-bottom: 15px;
 }
 
-/*=========================================================
-	03 -> Navigation
-===========================================================*/
 
 #navigation {
   background: #FFF;
@@ -548,9 +545,6 @@ textarea.input {
   border-top: 3px solid #D10024;
 }
 
-/*----------------------------*\
-	Main nav
-\*----------------------------*/
 
 .main-nav>li+li {
   margin-left: 30px
@@ -583,9 +577,6 @@ textarea.input {
   display: none;
 }
 
-/*----------------------------*\
-	responsive nav
-\*----------------------------*/
 
 @media only screen and (max-width: 991px) {
   .header-ctn .menu-toggle {
@@ -631,9 +622,6 @@ textarea.input {
   }
 }
 
-/*=========================================================
-	04 -> CATEGORY SHOP
-===========================================================*/
 
 .shop {
   position: relative;
@@ -1278,13 +1266,6 @@ font-size: 24px;
   font-size: 12px;
 }
 
-/*=========================================================
-	08 -> PRODUCT DETAILS PAGE
-===========================================================*/
-
-/*----------------------------*\
-	Product view
-\*----------------------------*/
 
 #product-main-img .slick-prev {
   -webkit-transform: translateX(-15px);
@@ -1497,9 +1478,6 @@ font-size: 24px;
   margin-left: 10px;
 }
 
-/*----------------------------*\
-	 Product tab
-\*----------------------------*/
 
 #product-tab {
   margin-top: 60px;
@@ -1556,8 +1534,6 @@ font-size: 24px;
 #product-tab .tab-nav li a:hover:after, #product-tab .tab-nav li a:focus:after, #product-tab .tab-nav li.active a:after {
   width: 100%;
 }
-
-/*-- Rating --*/
 
 .rating-avg {
   font-size: 24px;
@@ -1727,10 +1703,6 @@ font-size: 24px;
   color: #D10024;
 }
 
-/*=========================================================
-	09 -> CHECKOUT PAGE
-===========================================================*/
-
 .billing-details {
   margin-bottom: 30px;
 }
@@ -1883,10 +1855,6 @@ font-size: 24px;
   background-color: #E4E7ED;
   color: #D10024;
 }
-
-/*=========================================================
-	11 -> FOOTER
-===========================================================*/
 
 #footer {
   background: #15161D;
